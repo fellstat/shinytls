@@ -4,7 +4,7 @@ Like any non-trivial survey, weights must be added to the data in order to adjus
 
 Input:
 
-- **CSV File -** The csv file sould have one row per subject surveyed.
+- **CSV File -** The csv file should have one row per subject surveyed.
 - **Venue/time sampling probability -** This is the column output by the __Generate TLS Sample Frame__ tab.
 - **Sampling strata -** The sampling strata variable output by the __Generate TLS Sample Frame__. If no variable is selected, the calculation of the bootstrap replicate weights will assume no stratification.
 - **Venue -** The venue the individual was sampled.
@@ -12,7 +12,7 @@ Input:
 - **Time -** The time of day the individual was sampled.
 - **# of individuals observed -** The number of individuals from the population observed at the venue visit.
 
-The above columns whould have no missing values.
+The above columns should have no missing values.
 
 - **Number of bootstrap replicate weights -** The number of replicated to generate. These can be used in most standard statistical packages to perform inference.
 

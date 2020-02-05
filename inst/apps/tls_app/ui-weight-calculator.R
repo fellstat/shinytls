@@ -18,9 +18,9 @@ ui_weight_calculator <- function(){
         ),
         conditionalPanel(
           "output.table_wt != null",
-          selectizeInput("samp_prob_wt", "Venue/Time Sampling Probability:",
+          selectizeInput("samp_prob_wt", "Venue/Time sampling probability:",
                          c("")),
-          selectizeInput("strata_wt", "Sampling Strata (optional):",
+          selectizeInput("strata_wt", "Sampling strata (optional):",
                          c("")),
           selectizeInput("locations_wt", "Venue:",
                          c("")),
@@ -31,7 +31,7 @@ ui_weight_calculator <- function(){
           selectizeInput("num_observed_wt", "# of individuals observed:",
                          c(""))
         ),
-        numericInput("n_rep_wts","Number of Bootstrap Replicate Weights", value =100, min=2, step=1, max=10000),
+        numericInput("n_rep_wts","Number of bootstrap replicate weights", value =100, min=2, step=1, max=10000),
         width = 5),
         mainPanel(
 
